@@ -10,16 +10,18 @@ export default class Song {
     }
     get Template() {
         return `
-            <div class= "row p-5"
-                <div class="col-4">
-                    <img src="${this.albumArt}" alt="Album art">
-                    <h3>Artist: ${this.artist}</h3>
-                    <h3>Song Title: ${this.title}</h3>
-                    <h3>Collection: ${this.collection}</h3>
-                    <h4>Price: ${this.price}</h4>
-                    <audio controls src="${this.preview}">Preview</audio>
+            <div class="col-4 text-center">
+                <div class="card my-3">
+                    <img src="${this.albumArt}" alt="Album art" class="rounded card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Artist: ${this.artist}</h3>
+                        <h3 class="card-subtitle">Song Title: ${this.title}</h3>
+                        <h3 class="card-subtitle">Collection: ${this.collection}</h3>
+                        <h4 class="card-subtitle">Price: ${this.price}</h4>
+                        <audio controls src="${this.preview}">Preview</audio>
+                    </div>
                 </div>
-            </div> 
+            </div>
                 `
     }
 }
