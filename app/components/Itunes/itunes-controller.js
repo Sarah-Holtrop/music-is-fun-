@@ -21,7 +21,7 @@ class ItunesController {
   constructor() {
     //BE SURE TO REGISTER YOUR SUBSCRIBERS!!!!!!!
     itunesService.addSubscriber('songs', drawSongs)
-    drawSongs()
+    // drawSongs()
   }
 
 
