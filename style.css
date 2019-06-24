@@ -5,9 +5,23 @@
 .header {
   background-image: url(images/casette.jpg);
   background-size: cover;
-  height: 75vh
+  height: 75vh;
+  clip: rect(0px,60px,200px,0px);
 }
 
 .icon {
   color: rgb(70, 70, 70)
+}
+
+.form-width {
+  width: 100% !important;
+}
+
+.audio-width {
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: rgb(21, 41, 54);
+
 }
