@@ -1,11 +1,11 @@
 .background {
-  background-color:rgba(120, 102, 102, 0.2)
+  background-color:rgba(116, 151, 148, 0.48)
 }
 
 .header {
   background-image: url(images/casette.jpg);
   background-size: cover;
-  height: 100vh
+  height: 75vh
 }
 
 .icon {
